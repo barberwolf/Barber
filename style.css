@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f8f8f8;
+    color: #111;
+}
+header {
+    background: #000;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.logo {
+    width: 100px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+section {
+    padding: 2em;
+}
+.gallery-img, .gallery-video {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+}
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
